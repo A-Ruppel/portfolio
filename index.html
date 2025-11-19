@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>    
+        <title>Page Title</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css"/>
     </head>
-    <body>
-
-        <h1> Arthur Ruppel <br> Mein Portfolio </h1>
-        <hr>
+    <body> 
+        <h1> 
+            <button onclick="topFunction()" id="topButton" title="go to top">zur Businesscard</button>
+            <button onlcick="topFunction()">Siehe Video</button>
+        </h1>
         <h2>
             <p>Über mich:</p>
             <p>
@@ -16,31 +21,37 @@
             </p>
             <br>
             <p>Was ich bin:</p>
-            <ul>         
-                <li>Wissenshungrig</li>
-                <li>Tech Enthusiast</li>
-                <li>Teamplayer und -koordinator</li>
-                <li>Stets offen für Ideen und Kritik</li>
-            </ul>
+            <div class="container">   
+                <ul class="myUL">         
+                    <li>Wissenshungrig</li>
+                    <li>Tech Enthusiast</li>
+                    <li>Teamplayer und -koordinator</li>
+                    <li>Stets offen für Ideen und Kritik</li>
+                </ul>
+            </div>
             <br>
             <p>Meine Interessen:</p>
-            <ul>
-                <li>IT und Tech</li>
-                <li>Philosophie, Anthropologie</li>
-                <li>Vollkontakt Kampfsport</li>
-                <li>Musik, sowie andere Formen und Arten von Kunst</li>
-                <li>Datenschutz und -sicherheit</li>
-                <li>Reperatur von Altgeräten</li>
-            </ul>
-            <br>
+            <div class="container">
+                <ul>
+                    <li>IT und Tech</li>
+                    <li>Philosophie, Anthropologie</li>
+                    <li>Vollkontakt Kampfsport</li>
+                    <li>Musik, sowie andere Formen und Arten von Kunst</li>
+                    <li>Datenschutz und -sicherheit</li>
+                    <li>Reperatur von Altgeräten</li>
+                </ul>
+            </div>
+                <br>
             <p>Skills und Wissen:</p>
-            <ul>
-                <li>Troubleshooting von Problemen mit PC-Systemen</li>
-                <li>Zusammenbau von PC-Systemen</li>
-                <li>Linux Ubuntu in Privatnutzung seit Windows 10 end of support</li>
-                <li>Virtuelle Maschinen und Emulatoren aufgesetzt und konfiguriert</li>
-                <li>Jailbreaken von Konsolen und Installation von Custom Firmware</li>
-            </ul>
+            <div class="container">
+                <ul>
+                    <li>Troubleshooting von Problemen mit PC-Systemen</li>
+                    <li>Zusammenbau von PC-Systemen</li>
+                    <li>Linux Ubuntu in Privatnutzung als Haupt-OS seit Windows 10 end of support</li>
+                    <li>Virtuelle Maschinen und Emulatoren aufgesetzt und konfiguriert</li>
+                    <li>Jailbreaken von Konsolen und Installation von Custom Firmware</li>
+                </ul>
+            </div>
         </h2>
     </body>
 </html>

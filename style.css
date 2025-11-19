@@ -1,21 +1,31 @@
 body 
 {
-    background-color:bisque
+    font-family: 'Noto Sans', sans-serif;
+    background-color: grey;
 }
 
-h1 
+h1
 {
-    color: white;
+    text-align:center;
+}
+
+#topButton
+{
     text-align: center;
 }
 
 p
 {
     text-align: center;
-    font-family: Verdana;
 }
 
-li
+.container 
 {
     text-align: center;
+}
+
+ul 
+{
+  display: inline-block;
+  text-align: left;
 }
